@@ -34,6 +34,9 @@ nav {
   color: red;
 }
 
+
+/* ------------------- */
+
 button {
   background-color: red;
   color: white;
@@ -69,6 +72,8 @@ footer {
   padding: 20px;
   background-color: #eee;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
 a {
@@ -166,8 +171,6 @@ header {
 .maxWidth {
   max-width: 1000px;
 }
-
-#lookingForBest {}
 
 .aboutSixteenDiv {
   display: flex;

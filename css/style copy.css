@@ -1,0 +1,100 @@
+.productTitle {
+  color: #350dd9;
+}
+
+.review {
+  color: red;
+}
+
+
+
+
+
+#creative {
+  margin: 20px;
+  padding: 20px;
+  background-color: #eee;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+#productsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.itemImg {
+  width: 100%;
+}
+
+.articleBorder {
+  margin: 0px;
+}
+
+
+
+.AroundItem {
+  width: 31.3%;
+}
+
+.ArticleItem {
+  border: 1px #eee solid;
+  /* margin: 10px; */
+}
+
+
+
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 25px;
+}
+
+.productDescription {
+  margin: 0px 25px;
+}
+
+
+
+#aboutSixteen {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 40px 0px 30px 0px;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #eee;
+  padding-bottom: 20px;
+}
+
+
+
+.aboutSixteenDiv {
+  display: flex;
+}
+
+#aboutLooking {
+  float: right;
+}
+
+
+
+
+#lookingList {
+  list-style-type: disc;
+  margin-left: 20px;
+}

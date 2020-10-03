@@ -12,14 +12,15 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./scss/dist/style.css" />
+    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
     <title>Document</title>
   </head>
 
   <body>
     <header>
       <a href="">
-        <p id="logo1">SIXTEEN <span id="logo2">CLOTHING</span></p>
+        <span id="logo1">SIXTEEN </span><span id="logo2">CLOTHING</span>
       </a>
       <nav>
         <ul>
@@ -37,7 +38,7 @@
       <img src="./1900_600.jpg" alt="" id="mainImg" />
     </div>
 
-    <div id="productsAllGrid">
+    <div id="productsAllGrid" class="maxWidth">
       <div id="latestProductDiv">
         <h2>
           <span id="latestProduct">Latest Products</span>
@@ -48,7 +49,7 @@
       <div id="productsGrid">
         <div class="AroundItem">
           <article class="ArticleItem">
-            <img src="./shoes.png" alt="" class="itemImg" />
+            <img src="./shoes2.png" alt="" class="itemImg" />
             <div class="flex_between">
               <h3 class="productTitle"><a href="">Tittle goes here</a></h3>
               <p>$26.67</p>
@@ -72,7 +73,7 @@
 
         <div class="AroundItem">
           <article class="ArticleItem">
-            <img src="./shoes.png" alt="" class="itemImg" />
+            <img src="./shoes2.png" alt="" class="itemImg" />
             <div class="flex_between">
               <h3 class="productTitle"><a href="">Tittle goes here</a></h3>
               <p>$26.67</p>
@@ -96,7 +97,7 @@
 
         <div class="AroundItem">
           <article class="ArticleItem">
-            <img src="./shoes.png" alt="" class="itemImg" />
+            <img src="./shoes2.png" alt="" class="itemImg" />
             <div class="flex_between">
               <h3 class="productTitle"><a href="">Tittle goes here</a></h3>
               <p>$26.67</p>
@@ -120,7 +121,7 @@
 
         <div class="AroundItem">
           <article class="ArticleItem">
-            <img src="./shoes.png" alt="" class="itemImg" />
+            <img src="./shoes2.png" alt="" class="itemImg" />
             <div class="flex_between">
               <h3 class="productTitle"><a href="">Tittle goes here</a></h3>
               <p>$26.67</p>
@@ -144,7 +145,7 @@
 
         <div class="AroundItem">
           <article class="ArticleItem">
-            <img src="./shoes.png" alt="" class="itemImg" />
+            <img src="./shoes2.png" alt="" class="itemImg" />
             <div class="flex_between">
               <h3 class="productTitle"><a href="">Tittle goes here</a></h3>
               <p>$26.67</p>
@@ -168,7 +169,7 @@
 
         <div class="AroundItem">
           <article class="ArticleItem">
-            <img src="./shoes.png" alt="" class="itemImg" />
+            <img src="./shoes2.png" alt="" class="itemImg" />
             <div class="flex_between">
               <h3 class="productTitle"><a href="">Tittle goes here</a></h3>
               <p>$26.67</p>
@@ -195,11 +196,11 @@
     <section class="maxWidth">
       <h2 id="aboutSixteen">About Sixteen Clothing</h2>
       <div class="aboutSixteenDiv">
-        <div>
+        <div id="aboutSixteenText">
           <a href="" class="blue bold">Looking for the best products? </a>
           <br />
           <br />
-          <p id="aboutLooking">
+          <p>
             <span class="blue">Lorem ipsum dolor </span> Lorem ipsum dolor sit
             amet, consectetur adipisicing elit. Atque dolorum dolores tempora,
             voluptas perspiciatis asperiores rerum maiores, magnam minima
@@ -216,21 +217,25 @@
             <li>Lorem ipsum dolor sit.</li>
             <li>Lorem ipsum dolor sit.</li>
           </ul>
-          <button>Read More</button>
+          <button id="readMore">Read More</button>
         </div>
-        <div>
-          <img src="./looking2.png" alt="" />
+        <div id="aboutImgDiv">
+          <img src="./looking2.png" alt="" id="aboutImg" />
         </div>
       </div>
     </section>
 
     <section id="creative" class="maxWidth">
-      <h3>Creative & Unique Sixteen Products</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-        mollitia, id quibusdam ipsa iste dolorem?
-      </p>
-      <button>Purchase Now</button>
+      <div>
+        <h3 class="blue">
+          Creative & Unique <span class="bold"> Sixteen </span>Products
+        </h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+          mollitia, id quibusdam ipsa iste dolorem?
+        </p>
+      </div>
+      <button class="purchaseNowButton">Purchase Now</button>
     </section>
 
     <footer>
