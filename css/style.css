@@ -1,18 +1,25 @@
 body {
   font-family: "Open Sans", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 header {
   background-color: #302f2b;
+  width: 100%;
 }
 
 nav {
   color: white;
 }
+
 .menuItem {
   display: inline-block;
   /* border: 1px solid; */
 }
+
 .menuLink {
   /* border: 1px solid; */
   padding: 24px 15px;
@@ -34,12 +41,15 @@ button {
 
 #viewAll {
   color: red;
-  float: right;
+  font-size: 0.8em;
+  font-weight: bold;
+  /* float: right; */
 }
 
 .productTitle {
   color: #350dd9;
 }
+
 .review {
   color: red;
 }
@@ -47,6 +57,7 @@ button {
 footer {
   margin: 20px auto;
 }
+
 #mainImg {
   margin-bottom: 60px;
   width: 100%;
@@ -57,6 +68,7 @@ footer {
   margin: 20px;
   padding: 20px;
   background-color: #eee;
+  width: 100%;
 }
 
 a {
@@ -87,21 +99,95 @@ header {
   display: flex;
   justify-content: space-between;
 } */
-.item {
-  width: 33%;
-}
-.itemBorder {
-  border: 1px #eee solid;
-  width: 274px;
+.item {}
+
+.itemImg {
+  width: 100%;
 }
 
-#latestProductsDiv {
-  max-width: 1300px;
+.articleBorder {
+  margin: 0px;
+}
+
+#productsAllGrid {
+  max-width: 1000px;
+  /* margin: 30px 90px; */
   margin: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
 
-#latestProductsTitle {
+.AroundItem {
+  width: 31.3%;
+}
+
+.ArticleItem {
+  border: 1px #eee solid;
+  /* margin: 10px; */
+}
+
+#latestProductDiv {
+  margin: 0px 10px 30px 0px;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #eee;
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex_between {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 25px;
+}
+
+.productDescription {
+  margin: 0px 25px;
+}
+
+#latestProduct {
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+#aboutSixteen {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 40px 0px 30px 0px;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  border-color: #eee;
+  padding-bottom: 20px;
+}
+
+.maxWidth {
+  max-width: 1000px;
+}
+
+#lookingForBest {}
+
+.aboutSixteenDiv {
+  display: flex;
+}
+
+#aboutLooking {
+  float: right;
+}
+
+
+.blue {
+  color: blue;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+
+#lookingList {
+  list-style-type: disc;
+  margin-left: 20px;
 }
