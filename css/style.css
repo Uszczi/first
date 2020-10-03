@@ -1,0 +1,107 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  background-color: #302f2b;
+}
+
+nav {
+  color: white;
+}
+.menuItem {
+  display: inline-block;
+  /* border: 1px solid; */
+}
+.menuLink {
+  /* border: 1px solid; */
+  padding: 24px 15px;
+  display: inline-block;
+}
+
+#logo1 {
+  color: white;
+}
+
+#logo2 {
+  color: red;
+}
+
+button {
+  background-color: red;
+  color: white;
+}
+
+#viewAll {
+  color: red;
+  float: right;
+}
+
+.productTitle {
+  color: #350dd9;
+}
+.review {
+  color: red;
+}
+
+footer {
+  margin: 20px auto;
+}
+#mainImg {
+  margin-bottom: 60px;
+  width: 100%;
+  height: auto;
+}
+
+#creative {
+  margin: 20px;
+  padding: 20px;
+  background-color: #eee;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.activeLink {
+  border-width: 0px 0px 3px 0px;
+  border-style: solid;
+  border-color: red;
+}
+
+#productsGrid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  /* max-width: 80%; */
+}
+
+/* .productsRow {
+  display: flex;
+  justify-content: space-between;
+} */
+.item {
+  width: 33%;
+}
+.itemBorder {
+  border: 1px #eee solid;
+  width: 274px;
+}
+
+#latestProductsDiv {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#latestProductsTitle {
+}
