@@ -9,7 +9,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // margin: 0px
+  position: relative;
+  margin: 0px
 }
 
 
@@ -19,6 +20,12 @@ header {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 2;
 
 
   #logo1 {
@@ -55,7 +62,8 @@ header {
   height: auto;
   margin-left: 0px;
   margin-right: 0px;
-  ;
+  padding-top: 40px;
+  // background-size: cover
 }
 
 
@@ -210,6 +218,10 @@ header {
     flex-direction: column;
     justify-self: center;
     align-items: center;
+  }
+
+  @media (max-width: $medium) {
+    margin-left: 50px;
   }
 }
 
